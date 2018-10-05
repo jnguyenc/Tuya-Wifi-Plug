@@ -1,4 +1,6 @@
 Set up Rasperberry Pi as a wifi hotspot https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/
 Connect the plug to the hotspot via SmartLife mobile app
 Run tcpdump: sudo tcpdump -ni br0 -s0 ether host dc:4f:22:c8:6d:d7 -w /home/pi/smartlife.pcap
-Turn on/off the switch remotely, using the Smart Life mobile app a few times
+Use Smart Life mobile app to turn on/off the switch remotely a few times
+Stop the tcpmdump (ctrl+c)
+Read the pcap file in Wireshark
